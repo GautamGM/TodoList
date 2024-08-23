@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    body {
+      padding: 20px;
+      border: 20px solid white;
+    }
+    ul div {
+      border: 1px solid black;
+      padding: 5px;
+      list-style: none;
+      border-radius: 5px;
+      font-size: 20px;
+      margin-bottom: 3px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      background-color: black;
+      color: white;
+      border-color: white;
+    }
+
+    .conatiner {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .conatiner input {
+      width: 300px;
+      height: 25px;
+      border-radius: 5px;
+      border: 1px solid white;
+      margin-left: 100px;
+    }
+  </style>
+  <body style="background-color: rgb(78, 150, 101)">
+    <h1
+      style="text-align: center; background-color: white; border-radius: 10px"
+    >
+      Task Name <span>&#128073;</span>TODO LIST
+    </h1>
+    <form class="conatiner">
+      <input type="text" class="inputText" />
+      <button
+        id="addTask"
+        style="
+          width: 100px;
+          height: 30px;
+          border-radius: 10px;
+          color: white;
+          background-color: black;
+          border-color: white;
+        "
+      >
+        Add todo
+      </button>
+    </form>
+    <h2
+    style="
+      text-align: center;
+      font-size: 25px;
+      font-weight: 700px;
+      color: white;
+      margin: 10px;
+    "
+  >
+    MY DAY TO DAY TASK
+  </h2>
+    <ul id="todo-list">
+     
+      <!-- <div id="0" class="task"><span class="text">df</span><input type="checkbox" class="check" id="0" style="border-radius:100px; background-color: black; border-color: red;"><button id="0" style="border-radius: 100px; border-color: white; background-color: red; color: white;">remove</button></div> -->
+    </ul>
+  </body>
+  <script src="./todo.js" defer></script>
+</html>
